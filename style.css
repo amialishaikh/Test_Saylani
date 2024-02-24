@@ -71,23 +71,204 @@ box-sizing: border-box;
     top: 10px;
     right: 10px;
 }
+.popular h2 {
+    color: #643fe7;
+    font-weight: bolder;
+    font-size: 2.9rem;
+}
+.popular button {
+    color: #643fe7;
+    border-radius: 16px;
+    /* margin-left: 6px; */
+    margin:10px 10px ;
+    background-color: white !important;
+    border-color: #643fe7 !important;
+}
+.popular button:hover{
+    color: #643fe7;
+}
 /*<!-- banner section end  -->*/
 
 
 
 /*<!-- home section start  -->*/
+.hero {
+    padding: 100px 12px;
+}
+.hero .hero-head h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #643fe7;
+}
+.hero .hero-head span {
+    color: black;
+}
+.hero .hero-head p {
+    font-size: 1.5rem;
+    color: black;
+}
 /*<!-- home section end  -->*/
 
 
 /*<!-- card section start  -->*/
+.card-fast {
+    padding: 100px 50px;
+}
+.card-fast .card-title {
+    color: #643fe7;
+}
+.card-fast i {
+    color: #643fe7;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+.card-fast .card {
+    border-color: #643fe7;
+}
+.card-fast .text-center {
+}
+.card-fast .justify-main  {
+
+    display: flex;
+    justify-content: space-around !important;
+}
 /* <!-- card section end  --> */
 
 
 
 /*<!-- lsat section start  -->*/
+.main {
+    padding: 100px 0;
+}
+.main .main-title {
+ color: #643fe7;
+ font-size: 3.2rem;
+ font-weight: bolder;
+}
+.main span {
+    color: black;
+}
+.main .main-text {
+    color: black;
+    font-size: 1.3rem;
+}
+.job-main .main-title h1 {
+    font-size: 2.9rem;
+    color:#643fe7;
+    font-weight: bolder;
+}
+.job-main .main-title span {
+    color: black;
+}
 /*<!-- lsat section end  -->*/
 
 
 
+
+.features-wrepper {
+    padding: 100px 0 80px;
+    background-color: aliceblue;
+
+}
+.features-wrepper .col-lg-4 {
+    border-radius: 15px;
+    margin-left: 2px;
+    border: 2px solid #643fe7 !important;
+}
+
+.features-wrepper .ft-1 {
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+.features-wrepper .ft-2 {
+    padding: 20px;
+    border-radius: 15px;
+}
+.features-wrepper .ft-3 {
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+.features-wrepper .ft-4 {
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+.features-wrepper .ft-5 {
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+.features-wrepper .ft-6 {
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.end-footer {
+    background-color: aliceblue;
+    padding: 100px 10px;
+
+}
+.end-footer span {
+    color: #643fe7;
+}
+.end-footer h2 {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.end-footer button {
+    background-color: #643fe7;
+    color: white;
+    font-weight: bolder;
+}
+
+
 /*<!-- footer section start  -->*/
+
+.footr-wrapper {
+    padding: 100px 0 25px;
+    background:url("assets/bg_footer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#643fe7;
+    color: white;
+}
+.footr-wrapper .footer-logo img {
+    max-width: 30%;
+}
+.footr-wrapper .footer-text,
+.footr-wrapper .footer-text a {
+    margin-top: 30px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-decoration: none;
+}
+.footr-wrapper .footer-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: white;
+    margin-bottom: 25px;
+}
+.footr-wrapper .footer-social-media-icon {
+    padding-right: 30px;
+    color: white;
+    font-size: 20px;
+}
+.footr-wrapper .footer-credits {
+    color: white;
+    border-top: 1px solid wheat;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+
 /*<!-- footer section end  -->*/
+
