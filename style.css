@@ -1,0 +1,93 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/*  <!-- header start --> */
+
+.header-wepper {
+    background-color:rgb(245, 243, 243) ;
+}
+.main-btn {
+    background-color:#12c4a0 !important;
+}
+.header-wepper .navbar-brand img {
+    max-width: 210px;
+    height: auto;
+}
+.header-wepper .navbar-menu {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+.header-wepper .navbar-menu .nav-item {
+    margin: 0 10px;
+}
+.header-wepper  .nav-item .nav-link {
+    color: black;
+    font-size: 18px;
+} 
+.header-wepper .navbar-menu .nav-link:active{
+    color: aqua;
+}
+.header-wepper .navbar-toggler:focus {
+    box-shadow: none;
+    border: none;
+
+}
+/*    <!-- header end --> */
+
+
+/*<!-- banner section start  -->*/
+.section-home {
+    padding: 100px 0 20px;
+}
+.section-home .title-section {
+    font-size: 5rem;
+    font-weight: bolder;
+    color: #643fe7;
+}
+.section-home .text-section {
+    color: black;
+    font-size: 1.4rem;
+}
+.section-home .srech-bar  {
+    width: 650px;
+    
+}
+.section-home .srech-bar button {
+    border-radius: 15px;
+    margin-left: 30px;
+    width: 140px;
+    color: white;
+    background-color:#643fe7 ;
+}
+.input-icon {
+    position: relative;
+}
+.input-icon i {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+/*<!-- banner section end  -->*/
+
+
+
+/*<!-- home section start  -->*/
+/*<!-- home section end  -->*/
+
+
+/*<!-- card section start  -->*/
+/* <!-- card section end  --> */
+
+
+
+/*<!-- lsat section start  -->*/
+/*<!-- lsat section end  -->*/
+
+
+
+/*<!-- footer section start  -->*/
+/*<!-- footer section end  -->*/
